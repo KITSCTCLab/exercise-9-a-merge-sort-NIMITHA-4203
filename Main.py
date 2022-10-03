@@ -7,8 +7,8 @@ def merge_sort(myList) -> None:
         right = myList[mid:]
 
         # Recursive call on each half
-        mergeSort(left)
-        mergeSort(right)
+        merge_sort(left)
+        merge_sort(right)
 
         # Two iterators for traversing the two halves
         i = 0
